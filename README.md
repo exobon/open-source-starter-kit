@@ -1,6 +1,3 @@
-# Open Source Starter Kit ( OSSK )
-A community-driven project for open collaboration.
-
 # Open Collaboration Hub
 
 Welcome! This is an open-source repository designed to help users learn how to contribute to projects. We are building a library of useful resources and we need your help.
@@ -28,9 +25,4 @@ We accept USDT on the TRON Network (TRC20).
 TBaW2wUyuAHrYtNia9JcD6j83wtpo5oYsY
 
 > **Note:** Please ensure you are sending **USDT (Tether)** on the **TRC20 Network**. Sending tokens via other networks (ERC20, BEP20) may result in permanent loss.
-
-<img src="https://freeimage.host/i/fUGDAHx" alt="USDT TRC20 QR Code" width="200"/>
-
-
-*(Maintainer: Upload your QR code image to this repo and link it here)*
 
