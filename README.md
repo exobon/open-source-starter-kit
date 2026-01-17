@@ -26,3 +26,5 @@ TBaW2wUyuAHrYtNia9JcD6j83wtpo5oYsY
 
 > **Note:** Please ensure you are sending **USDT (Tether)** on the **TRC20 Network**. Sending tokens via other networks (ERC20, BEP20) may result in permanent loss.
 
+<img src="donation-qr.png" alt="USDT TRC20 QR Code" width="200"/>
+
