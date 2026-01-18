@@ -21,10 +21,25 @@ def simple_calculator():
         if op == '+': print(f"Result: {num1 + num2}")
         elif op == '-': print(f"Result: {num1 - num2}")
         elif op == '*': print(f"Result: {num1 * num2}")
-        elif op == '/': print(f"Result: {num1 / num2}")
+        elif op == '/': 
+            if num2 != 0:
+                print(f"Result: {num1 / num2}")
+            else:
+                print("❌ Cannot divide by zero.")
         else: print("❌ Invalid operator")
     except ValueError:
         print("❌ Invalid input.")
+
+def currency_converter():
+    """Converts USD to INR (Rule-based addition)"""
+    print("\n--- 💵 USD to INR Converter ---")
+    try:
+        usd = float(input("Enter amount in USD: "))
+        rate = 83.0  # Fixed exchange rate for simplicity
+        inr = usd * rate
+        print(f"✅ Result: {usd} USD = {inr:.2f} INR")
+    except ValueError:
+        print("❌ Please enter a valid amount.")
 
 def main():
     print("Welcome to the Open Source Starter Kit! 🚀")
@@ -32,15 +47,18 @@ def main():
         print("\nMenu:")
         print("1. Generate Password")
         print("2. Use Calculator")
-        print("3. Exit")
+        print("3. Currency Converter") # New Feature added as per issue #2
+        print("4. Exit")
         
-        choice = input("Enter your choice (1-3): ")
+        choice = input("Enter your choice (1-4): ")
         
         if choice == '1':
             password_generator()
         elif choice == '2':
             simple_calculator()
         elif choice == '3':
+            currency_converter()
+        elif choice == '4':
             print("Goodbye! 👋")
             break
         else:
@@ -48,4 +66,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-  
